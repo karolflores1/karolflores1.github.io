@@ -1,0 +1,93 @@
+/* General Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Imagen del banner */
+.banner-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Estilo de los títulos */
+h1, h6 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+h6 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #7f8c8d;
+}
+
+/* Estilo de la sección de contenido */
+.banner {
+    background-color: #ffffff;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 60%;
+    height:1000px;
+}
+
+.banner-contenido {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.banner p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-top: 10px;
+    text-align: center;
+    color: #2c3e50;
+
+}
+
+/* Botones */
+.botones {
+    margin-top: 30px;
+}
+
+.round-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 60px 60px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 1px;
+    font-size: 2em;
+    transition: background-color 0.3s ease;
+    position: relative;
+    left: 50px; 
+    top: 50px;
+    height:40px;
+}
+
+.round-btn:hover {
+    background-color: #2980b9;
+}
+
+}
+/* Estilo para las imágenes generales */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+

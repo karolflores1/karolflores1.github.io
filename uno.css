@@ -1,0 +1,94 @@
+body{
+    background: #EED5B7;
+    font-family:Tahoma;
+    font-size: 11px;
+    width: 1200px;
+    margin: auto;
+    border: #08200b;
+}
+.banner {
+    display: flex;                 
+    align-items: center;           
+    background-color: #D19793;     
+    color: white;                  
+    padding: 0px;                 
+    position: relative;           
+}
+
+.banner-contenido{
+    width: 100%;
+    margin: 0px;
+    flex: 1;                       
+    text-align: left;               
+    max-width: 600px;   
+    clear: both;
+
+}
+.banner-contenido p, h1, a{
+    margin-left:20px;
+}
+
+
+.banner h1 {
+    font-size: 55px;                
+    margin-bottom: 10px;  
+    clear: both;         
+}
+
+.banner p {
+    font-size: 18px;              
+    margin-bottom: 30px;  
+    clear: both;          
+}
+.hola p{
+    margin: -5px 20px 0px 0px;
+    float: right;
+    width: 65%;
+    text-align: justify;
+    color: #243c27;
+    clear: both;
+}
+
+/* Estilos para los botones */
+.round-btn {
+    display: inline-block;         
+    width: 70px;                   
+    height: 70px;                  
+    border-radius: 70%;            
+    background: #FFEDBA;           
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.25); 
+    text-decoration: none;         
+    text-transform: uppercase;     
+    font-size: 0.90em;              
+    color: #38110b;                
+    line-height: 70px;             
+    text-align: center;            
+    margin-right: 0.5em;           
+    transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+.round-btn:hover {
+    background-color: #9c7a4d;
+    box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.5); 
+}
+
+.btn:hover {
+    background-color: #e64a19;      
+}
+
+.banner-image {
+    position: right;             
+    right: 100px;                    
+    width: 1180px;                   
+    height: 150px;                 
+}
+
+.banner1{   
+    background-color: #D19793;
+    text-align: justify;
+    font-size: 22px;                
+    margin-bottom: 10px;  
+    color: white;
+    font-family:Tahoma;
+}
+
